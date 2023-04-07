@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97eebd337c983b04699b927bbd0e0e46, type: 3}
+  m_Name: DUMMY ENEMY
+  m_EditorClassIdentifier: 
+  unitTemplete:
+    trans: {fileID: 0}
+    selectionArrowTransform: {fileID: 0}
+    agent: {fileID: 0}
+    unitName: DummyEnemy
+    icon: {fileID: 21300000, guid: 5efbe7c94a735104bb2b38de422f406a, type: 3}
+    unitType: 0
+    team: 2
+    isBuilding: 0
+    info: DummyEnemy is moving to destination
+    maxHp: 200
+    hp: 133
+    armor: 3
+    attackSpeed: 2
+    attackRange: 5
+    aggroRange: 10
+    yariCap: 2
+    minDamage: 1
+    maxDamage: 2
+    command: 2
+    target: {fileID: 0}
+    prevDestination: {x: 121212.22, y: 0, z: 0}
